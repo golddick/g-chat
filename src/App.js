@@ -15,7 +15,7 @@ import { BrowserRouter as Router, Routes, Route  } from "react-router-dom";
   <Route exact path="/profile" element={<Profile/>}></Route>
   <Route exact path="/login" element={<Login/>}></Route>
   <Route exact path="/signup" element={<Register/>}></Route>
-  <Route exact path="*" element={<Err/>}></Route>
+  {/* <Route exact path="*" element={<Err/>}></Route> */}
   </Routes>
   </Router>
   );
