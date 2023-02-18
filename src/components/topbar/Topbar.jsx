@@ -22,9 +22,9 @@ export default function Topbar() {
       <div className="topbarRight">
         <div className="topbarLinks">
           <nav>
-          <span ><Link to='/home' className="topbarLink" >Homepage</Link></span>
+          <span ><Link to='/' className="topbarLink" >Homepage</Link></span>
           <span ><Link to='/profile' className="topbarLink" >Timeline</Link></span>
-          <span><Link to='/home' className="topbarLink" >G-Chatgpt</Link></span>
+          <span><Link to='/' className="topbarLink" >G-Chatgpt</Link></span>
           <span><Link to='/login' className="topbarLink" >Logout</Link></span>
           {/* <span><Link to='/signup' className="topbarLink" >Sign up</Link></span> */}
           </nav>

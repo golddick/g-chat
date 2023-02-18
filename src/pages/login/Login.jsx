@@ -5,7 +5,7 @@ export default function Login() {
 
   let navigate = useNavigate(); 
   const routeChange = () =>{ 
-    let path = `/home`; 
+    let path = `/`; 
     navigate(path);
   }
   
